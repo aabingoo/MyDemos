@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotivicationActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/none_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="none_btn"/>
+
+    <Button
+        android:id="@+id/min_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="min_btn"/>
+
+    <Button
+        android:id="@+id/chat_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chat_btn"/>
+
+    <Button
+        android:id="@+id/download_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="download_btn"/>
+
+    <Button
+        android:id="@+id/push_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="push_btn"/>
+
+</LinearLayout>
